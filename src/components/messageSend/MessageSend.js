@@ -1,7 +1,7 @@
 import {ChatComponent} from '../../core/ChatComponent';
 import {$} from '../../core/Dom';
 import {getState, resizeHandler, scrollDown, timeFormat} from '../../core/utils';
-import {createMessage} from './CreateMessage';
+import {createMessage} from './createMessage.js';
 import * as actions from '../../redux/actions';
 
 export class MessageSend extends ChatComponent {
