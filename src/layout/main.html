@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../scss/index.scss">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="window">
+        <div class="navigation">
+            <nav class="nav">
+                <ul class="nav-items">
+                    <li class="nav-item nav-burger">
+                        <i class="fa-solid fa-bars"></i>
+                    </li>
+                    <li class="nav-item">
+                        <i class="nav-item__icon fa-solid fa-folder"></i>
+                        <span class="nav-item__text">Все чаты</span>
+                    </li>
+                    <li class="nav-item">
+                        <i class="nav-item__icon fa-solid fa-folder"></i>
+                        <span class="nav-item__text">Работа</span>
+                    </li>
+                    <li class="nav-item">
+                        <i class="nav-item__icon fa-solid fa-gears"></i>
+                        <span class="nav-item__text">Ред.</span>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="chat-list">
+            <div class="search">
+                <input type="text" name="" class="search__input" placeholder="Поиск">
+            </div>
+            <ul class="chat-items">
+                <li class="chat-item chat-item-active">
+                    <img src="./favicon.png" alt="" class="chat-item__image">
+                    <div class="chat-description">
+                        <h3 class="chat-description__name">Бочонок</h3>
+                        <p class="chat-description__last-message">Ты шо?</p>
+                    </div>
+                    <div class="time-last-message">
+                        28.02.2023
+                        <div class="time-last-message__count">1</div>
+                    </div>
+                </li>
+                <li class="chat-item">
+                    <img src="./favicon.png" alt="" class="chat-item__image">
+                    <div class="chat-description">
+                        <h3 class="chat-description__name">Бочонок</h3>
+                        <p class="chat-description__last-message">Ты шошошошошошошошо?</p>
+                    </div>
+                    <div class="time-last-message">
+                        28.02.2023
+                    </div>
+                </li>
+                <li class="chat-item">
+                    <img src="./favicon.png" alt="" class="chat-item__image">
+                    <div class="chat-description">
+                        <h3 class="chat-description__name">Бочонок</h3>
+                        <p class="chat-description__last-message">Ты шо?</p>
+                    </div>
+                    <div class="time-last-message">
+                        28.02.2023
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="window-message">
+            <div class="info-message">
+                <div class="info-message-top">
+                    <h2 class="info-message-top__name">Просто смотри</h2>
+                    <span class="info-message-top__online">10 minute</span>
+                </div>
+                <div class="info-message-icons">
+                    <span class="info-message-icons__icon fa-solid fa-magnifying-glass"></span>
+                    <span class="info-message-icons__icon fa-solid fa-phone"></span>
+                    <span
+                        class="info-message-icons__icon info-message-icons__icon_rotate fa-regular fa-window-maximize"></span>
+                    <span class="info-message-icons__icon fa-solid fa-ellipsis-vertical"></span>
+                </div>
+            </div>
+            <div class="window-message__chat">
+                <div class="user-chat">
+                    <div class="user-chat__message">Так шо с коммодом? Так шо с коммодом?Так шо с коммодом?Так шо с
+                        коммодом?Так шо с коммодом?Так шо с коммодом?</div>
+                    <div class="user-chat__message">Так шо с коммодом?</div>
+                    <div class="user-chat__message">Так шо с коммодом?</div>
+                    <div class="user-chat__message">Так шо с коммодом?</div>
+                    <div class="user-chat__message">Так шо с коммодом?</div>
+                </div>
+                <div class="user-chat my-chat">
+                    <div class="user-chat__message my-chat__message">Так шо с коммодом?</div>
+                    <div class="user-chat__message my-chat__message">Так шо с коммодом?</div>
+                    <div class="user-chat__message my-chat__message">Так шо с коммодом?</div>
+                    <div class="user-chat__message my-chat__message">Так шо с коммодом?</div>
+                    <div class="user-chat__message my-chat__message">Так шо с коммодом?</div>
+                </div>
+
+            </div>
+            <div class="window-message__bottom">
+                <i class="window-message__icon fa-solid fa-paperclip"></i>
+                <div class="search window-message-place">
+                    <input type="text" name="" class="search__input window-message-place__input"
+                        placeholder="Что спросишь?">
+                </div>
+                <div class="window-message-icons">
+                    <i class="window-message-icons__emoji fa-solid fa-face-smile"></i>
+                    <i class="window-message-icons__emoji fa-solid fa-microphone"></i>
+                </div>
+            </div>
+        </div>
+        <div class="emoji">
+            <div class="emoji-input">
+                <i class="emoji-input__icon">p</i>
+                <input type="text" class="emoji-input__input" placeholder="Поиск">
+            </div>
+            <div class="emoji-items">
+                <h3 class="emoji-items__name">Hot Cherry</h3>
+                <div class="emoji-list">
+                    <div class="emoji-list__sticer"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="update-tool">
+        <div class="over-tool">
+            <div class="close-tool">
+                <div class="close-tool__head">Папки</div>
+                <div class="close-tool__btn"><i class="fa-solid fa-xmark"></i></div>
+            </div>
+            <div class="over-photo">
+                <div class="over-background">
+                    <div class="over-logo">
+                        <img class="over-logo__img" src="../assets/logo-dir.png" alt="">
+                        <p class="over-logo__text">
+                            Вы можете создать папки с нужными чатами и пепеключаться между ними.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="under-tool">
+            <h4 class="under-tool__head">Мои папки</h4>
+            <div class="tool-directions">
+                <div class="tool-direction">
+                    <span class="tool-direction__icon"><i class="fa-solid fa-folder"></i></span>
+                    <div class="tool-direction-info">
+                        <h6 class="tool-direction-info__head">Работа</h6>
+                        <p class="tool-direction-info__count">16 чатов</p>
+                    </div>
+                    <span class="tool-direction__icon_delete"><i class="fa-solid fa-trash"></i></span>
+                </div>
+                <div class="tool-direction">
+                    <span class="tool-direction__icon"><i class="fa-solid fa-folder"></i></span>
+                    <div class="tool-direction-info">
+                        <h6 class="tool-direction-info__head">Личное</h6>
+                        <p class="tool-direction-info__count">3 чата</p>
+                    </div>
+                    <span class="tool-direction__icon_delete"><i class="fa-solid fa-trash"></i></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
