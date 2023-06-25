@@ -1,5 +1,5 @@
 import {ChatComponent} from '../../core/ChatComponent';
-import {$} from '../../core/dom';
+import {$} from '../../core/Dom';
 
 export class Info extends ChatComponent {
   static className = 'info';

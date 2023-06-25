@@ -1,5 +1,5 @@
 import {ChatComponent} from '../../core/ChatComponent';
-import {$} from '../../core/dom';
+import {$} from '../../core/Dom';
 import {resizeHandler} from '../../core/utils';
 import {TableSelection} from '../messageItems/TableSelection';
 import {createNavigation} from './table.template';

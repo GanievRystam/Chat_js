@@ -1,4 +1,4 @@
-import {$} from '../core/dom';
+import {$} from '../core/Dom';
 import {Page} from '../core/page';
 
 export class AuthPage extends Page {

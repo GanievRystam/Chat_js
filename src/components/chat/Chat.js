@@ -1,4 +1,4 @@
-import {$} from '../../core/dom';
+import {$} from '../../core/Dom';
 import {Emitter} from '../../core/Emitter';
 import {StoreSubscriber} from '../../core/StoreSubscriber';
 export class Chat {

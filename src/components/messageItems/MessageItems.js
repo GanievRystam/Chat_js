@@ -1,5 +1,5 @@
 import {ChatComponent} from '../../core/ChatComponent';
-import {$} from '../../core/dom';
+import {$} from '../../core/Dom';
 import {getState, resizeHandler} from '../../core/utils';
 import {changeDialog} from '../../redux/actions';
 import {TableSelection} from './TableSelection';

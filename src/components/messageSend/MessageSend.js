@@ -1,5 +1,5 @@
 import {ChatComponent} from '../../core/ChatComponent';
-import {$} from '../../core/dom';
+import {$} from '../../core/Dom';
 import {getState, resizeHandler, scrollDown, timeFormat} from '../../core/utils';
 import {createMessage} from './CreateMessage';
 import * as actions from '../../redux/actions';

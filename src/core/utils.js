@@ -1,4 +1,4 @@
-import {$} from '../core/dom';
+import {$} from '../core/Dom';
 import * as actions from '@/redux/actions';
 export function capitalize(string) {
   if (typeof string !== 'string') {

@@ -1,5 +1,5 @@
 import {ChatComponent} from '../../core/ChatComponent';
-import {$} from '../../core/dom';
+import {$} from '../../core/Dom';
 import {createMenu} from './createMenu';
 
 export class Menu extends ChatComponent {
